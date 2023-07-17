@@ -1,0 +1,22 @@
+html {
+  background-color: #ccc;
+  font-size: 32px; /*root*/
+}
+
+body {
+  background-color: blueviolet;
+  width: 50%;
+  font-size: 3rem;
+}
+
+.pai {
+  background-color: #ea80fc;
+  width: 50%;
+  font-size: 1.5rem; /* 1.5 vezes maior q o tamanho do elemento pai */
+}
+
+.filho {
+  background-color: #1de9b6;
+  width: 50%;
+  font-size: 0.5em;
+}

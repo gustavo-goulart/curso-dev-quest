@@ -1,0 +1,23 @@
+/* 
+colocando de forma separada:
+margin-top: 30px;
+margin-bottom: 25px;
+margin-left: 15px;
+margin-right: 20px; */
+
+/*
+colocando o mesmo valor no topo e nas laterais
+margin: 30px 15px 30px 15px;
+*/
+
+/* 
+forma de colocar o mesmo valor em todos os lados
+margin: 30px;
+*/
+
+p {
+  margin: 30px; /* código shorthand */
+  padding: 20px;
+  background-color: aquamarine;
+  border: 20px solid red;
+}

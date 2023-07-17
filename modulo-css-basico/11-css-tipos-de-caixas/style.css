@@ -1,0 +1,8 @@
+span {
+  color: orange;
+  display: block;
+
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
