@@ -1,0 +1,18 @@
+img {
+  width: 200px;
+}
+
+img.scale {
+  transform: scale(
+    2,
+    3
+  ); /* muda o tamanho da imagem em 2x na vertical e 3 hor*/
+}
+
+img.rotate {
+  transform: rotate(45deg);
+}
+
+img.translate {
+  transform: translate(50px, 20px);
+}
