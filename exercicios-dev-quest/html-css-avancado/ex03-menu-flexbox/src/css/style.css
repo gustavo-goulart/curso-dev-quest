@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;800&display=swap");
 
+html {
+  font-size: 62.5%; /*técnica do rem - 62,5% de 16px = 10px*/
+}
+
 body {
   font-family: "Public Sans", sans-serif;
   font-weight: 400;
@@ -18,29 +22,31 @@ body {
 }
 
 .logo h1 {
-  font-size: 20px;
+  /* font-weight: 800; */
+  font-size: 2rem; /*20px*/
   margin-left: 5px;
 }
 
 .menu {
   display: flex;
+  align-items: center;
 }
 
 .menu li a {
-  padding: 7px 11px;
+  padding: 10px 5px;
   transition: 0.3s ease-in-out;
   margin-left: 20px;
   font-size: 15px;
 }
 
+.menu li a.btn {
+  background-color: #5bc241;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 10px 20px;
+}
+
 .menu li a:hover {
   background-color: #5bc241;
   color: #ffffff;
-}
-
-.menu li a.btn {
-  background-color: #5bc241;
-  color: #ffffff;
-  border-radius: 10px;
-  padding: 10px 20px;
 }
