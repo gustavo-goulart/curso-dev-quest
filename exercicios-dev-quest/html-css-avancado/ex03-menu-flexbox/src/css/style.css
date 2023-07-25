@@ -24,13 +24,13 @@ body {
 
 .menu {
   display: flex;
-  font-size: 15px;
 }
 
 .menu li a {
   padding: 7px 11px;
   transition: 0.3s ease-in-out;
   margin-left: 20px;
+  font-size: 15px;
 }
 
 .menu li a:hover {
