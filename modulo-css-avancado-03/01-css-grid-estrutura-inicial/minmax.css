@@ -10,5 +10,8 @@
   1 - largura mínima de 100px e máxima de 800px
   2 e 3 (repeat) - largura mínima de 100px e máxima de 300px
   4 - largura míníma auto e máxima também auto */
-  grid-template-columns: minmax(100px, 800px) repeat(2, minmax(100px, 300px)) minmax(auto, auto);
+  grid-template-columns: minmax(100px, 800px) repeat(2, minmax(100px, 300px)) minmax(
+      auto,
+      auto
+    );
 }
